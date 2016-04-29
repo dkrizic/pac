@@ -16,7 +16,7 @@ public class CalculatorServiceBeanTest {
     @Deployment
     public static JavaArchive createDeployment() {
         return ShrinkWrap.create(JavaArchive.class)
-            .addPackages( true, "com.prodyna.pac.calculator")
+            .addPackages( true, "com.prodyna.pac")
             .addAsManifestResource("META-INF/beans.xml", "beans.xml");
     }
 
