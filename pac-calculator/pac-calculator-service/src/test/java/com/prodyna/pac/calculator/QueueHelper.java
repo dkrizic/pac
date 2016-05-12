@@ -23,7 +23,7 @@ public class QueueHelper implements MessageListener {
     @Inject
     private Logger log;
 
-    
+
     @Override
     public void onMessage(Message message) {
         if( message instanceof MapMessage) {

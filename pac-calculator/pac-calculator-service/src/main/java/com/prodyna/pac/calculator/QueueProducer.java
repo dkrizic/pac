@@ -8,4 +8,5 @@ public class QueueProducer {
     @Resource(mappedName="jms/queue/DemoQueue")
     @Produces @Demo
     private javax.jms.Queue queue;
+
 }
